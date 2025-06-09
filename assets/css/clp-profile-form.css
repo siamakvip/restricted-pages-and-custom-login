@@ -1,0 +1,43 @@
+.clp-user-profile-form-wrapper {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Vazirmatn', sans-serif;
+    direction: rtl;
+}
+
+.clp-user-profile-form input[type="text"],
+.clp-user-profile-form input[type="email"],
+.clp-user-profile-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.clp-user-profile-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.clp-user-profile-form .button {
+    background-color: #0073aa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.clp-user-profile-form .button:hover {
+    opacity: 0.85;
+}

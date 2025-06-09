@@ -1,0 +1,190 @@
+/* Container عمومی فرم */
+.clp-login-form,
+.clp-register-form {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+/* فیلد‌های ورودی */
+.clp-login-form input[type="text"],
+.clp-login-form input[type="password"],
+.clp-register-form input[type="text"],
+.clp-register-form input[type="email"],
+.clp-register-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+/* دکمه ورود */
+.clp-login-form input[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #0073aa;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 0 auto;
+}
+
+/* دکمه ثبت نام */
+input.clp-register-button,
+input.clp-back-button {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+    margin: 50px auto 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* دکمه ثبت نام */
+input.clp-register-button {
+    background-color: #27ae60;
+    color: white;
+}
+
+/* دکمه بازگشت */
+input.clp-back-button {
+    background-color: #e74c3c;
+    color: white;
+    margin-top: 20px;
+}
+
+/* عنوان فرم */
+.clp-login-form h3,
+.clp-register-form h3 {
+    text-align: center;
+    margin-top: 0;
+    color: #0073aa;
+    font-size: 20px;
+}
+
+/* پیام خطا */
+.clp-login-form .clp-login-error {
+    color: red;
+    text-align: center;
+}
+
+/* لینک‌ها */
+.clp-login-form a,
+.clp-register-form a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #0073aa;
+    text-decoration: none;
+}
+
+/* === تنظیمات صفحه ریدایرکت === */
+
+/* بدنه صفحه ریدایرکت */
+.clp-login-restricted-message {
+    font-family: 'Vazirmatn', sans-serif !important;
+    text-align: center !important;
+    padding-top: 100px;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* کانتینر پیام */
+.clp-login-restricted-message .message {
+    max-width: 500px;
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    text-align: center;
+    box-sizing: border-box;
+}
+
+/* عنوان خطا */
+.clp-login-restricted-message h1 {
+    color: #d63638;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+/* متن پیام */
+.clp-login-restricted-message p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+/* متن داخل em و small */
+.clp-login-restricted-message em,
+.clp-login-restricted-message small {
+    font-size: 14px;
+    color: #777;
+}
+
+/* دکمه "مرا منتقل کن" */
+.clp-redirect-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    background: #0073aa;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.clp-redirect-button:hover {
+    background: #005f85;
+}
+
+/* === پیام "این صفحه خصوصی است" === */
+.clp-private-message {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff5f5;
+    border-left: 4px solid #d63638;
+    color: #d63638;
+    font-family: 'Vazirmatn', sans-serif;
+    direction: rtl;
+}
+
+.clp-private-message h2, 
+.clp-private-message h4 {
+    margin: 5px 0;
+    padding: 0;
+    line-height: 1.4;
+}
+
+.clp-private-message h2 {
+    font-size: 22px;
+}
+
+.clp-private-message h4 {
+    font-size: 16px;
+    font-weight: normal;
+    color: #555;
+}

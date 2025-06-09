@@ -1,0 +1,59 @@
+.clp-topbar-profile {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    height: 50px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+    border-bottom: 1px solid #eee;
+    font-family: 'Vazirmatn', sans-serif;
+    direction: rtl;
+    transition: all 0.2s ease;
+}
+
+.clp-topbar-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+}
+
+.clp-user-name {
+    font-size: 15px;
+    color: #0073aa;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: default;
+}
+
+.clp-profile-dropdown {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.clp-profile-dropdown li {
+    display: inline-block;
+}
+
+.clp-profile-dropdown a {
+    text-decoration: none;
+    color: #0073aa;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+}
+
+.clp-profile-dropdown a:hover,
+.clp-profile-dropdown li:hover a {
+    color: #005f85;
+    background-color: #f1f1f1;
+}
